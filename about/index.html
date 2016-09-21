@@ -4,6 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <title>Ruben Estrada-About me</title>
+    <style>
+      img,video{
+        display:block;
+        max-width: 100%;
+      }
+    </style>
   </head>
   <body>
     <header class="h-card" id="header">
@@ -16,8 +22,35 @@
         </ul>
       </nav>
     </header>
+    <h1>About Me</h1>
     <section id="pets">
       <h2>Pets</h2>
+      <ul>
+        <li>Star the dog
+          <figure class="photo">
+            <img
+              srcset="/media/img/star4032-3024.jpg 4032w, /media/img/star2000-1500.jpg 2000w, /media/img/star1000-750.jpg 1000w, /media/img/star750-563.jpg 750w, /media/img/star500-375.jpg 500w"
+              sizes="100vw"
+              src="/media/img/star500-375.jpg" alt="Photo of Star"/>
+            <figcaption>
+              <p>
+                Star relaxing after a long day of running.
+              </p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>Shelly the turtle
+          <figure class="video">
+            <video controls="controls">
+              <source src="/media/video/turtle.mp4" type="video/mp4" />
+              <source src="/media/video/turtle.webm" type="video/webm" />
+              <p>
+                Download the video in
+                <a href"/media/video/turtle.mp4">MPEG</a> format.
+              </p>
+            </video>
+        </li>
+      </ul>
     </section>
     <footer>
       <p>Created by Ruben Estrada</p>
