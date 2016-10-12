@@ -61,9 +61,12 @@ li {
 }
 
 img,
-video {
+video,
+.gif {
   display: block;
   max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 1.25em;
 }
 
 .gif {
@@ -83,6 +86,11 @@ nav {
 }
 
 /* ===== MODULAR STYLES ===== */
+
+#contact-info a {
+  color: red;
+  border-bottom: 0.05263157895em dotted;
+}
 
 ul li ul li { /* list inside a list */
   list-style: square inside;
