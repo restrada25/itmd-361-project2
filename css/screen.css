@@ -22,6 +22,9 @@ html {
   line-height: 1.25em; /* 22.5px @ 18px em = 1 gridline */
   padding: 1.25em 1.25em; /* 22.5px @ 18px em */
 }
+nav {
+  display: block;
+}
 
 h1 {
   font-size: 2.441em; /* 43.945px @ 18px em */
@@ -41,43 +44,90 @@ h3 {
   padding-bottom: 0.8em; /* 22.5px @ 28.125px em */
 }
 
+a {
+  text-decoration: none;
+}
+
 p,
 ul {
   padding-bottom: 1.25em; /* 22.5px : html line-height */
-}
-
-ul li ul li{ /* list inside a list */
-  list-style: square inside;
-}
-
-ul li ul li ul li{ /* list inside a list inside a list */
-  list-style: disc inside;
-  padding-left: 1.25em; /* 22.5px @ 18px em */
-}
-
-ul li ul li ul li ul li{ /* list inside a list inside a list inside a list */
-  list-style: circle inside;
-  padding-left: 1.25em; /* 22.5px @ 18px em */
 }
 
 li {
   padding-bottom: 0.625em; /* 11.25px @ 18px em */
 }
 
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+.gif {
+  padding-bottom: 1.25em;
+}
+
+/* ===== LAYOUT STYLES ===== */
+html {
+  border-top: 2.6875em solid #142736; /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* ===== MODULAR STYLES ===== */
+
+ul li ul li { /* list inside a list */
+  list-style: square inside;
+}
+
+ul li ul li ul li { /* list inside a list inside a list */
+  list-style: disc inside;
+  padding-left: 1.25em; /* 22.5px @ 18px em */
+}
+
+ul li ul li ul li ul li { /* list inside a list inside a list inside a list */
+  list-style: circle inside;
+  padding-left: 1.25em; /* 22.5px @ 18px em */
+}
+
 li:last-child {
   padding-bottom: 0;
 }
 
- ul li ul li:first-child{
-  padding-top: 0.625em; /* 11.25px @ 18px em */
- }
-
-img, 
-video {
-  display:block;
-  max-width: 100%;
+.nav li {
+  float: left;
+  width: 25%;
+  list-style-type: none;
+  padding-bottom: 0;
 }
 
-/* ===== LAYOUT STYLES ===== */
-/* ===== MODULAR STYLES ===== */
+ul li ul li:first-child {
+  padding-top: 0.625em; /* 11.25px @ 18px em */
+}
+
+/* Navigation */
+nav {
+  font-weight: 200;
+}
+
+.nav {
+  margin-left: 0;
+  padding-bottom: 0;
+}
+
+.nav a {
+  display: block;
+  text-align: center;
+  line-height: 1;
+  padding: 0.6315789474em 0.3157894737em; /* ~ 12px 6px @ 19px/em */
+  background-color: black;
+  color: white;
+  border-bottom: 0;
+}
+
 /* ===== STATE STYLES ===== */
