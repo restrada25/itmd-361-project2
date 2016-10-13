@@ -84,11 +84,6 @@ nav {
 
 /* ===== MODULAR STYLES ===== */
 
-#contact-info a {
-  color: red;
-  border-bottom: 0.05263157895em dotted;
-}
-
 ul li ul li { /* list inside a list */
   list-style: square inside;
 }
@@ -143,11 +138,17 @@ nav {
 
 /* ===== STATE STYLES ===== */
 
+a:hover {
+  background-color: gray;
+}
+
 #active a {
+  font-weight: 500;
   color: black;
   background-color: white;
 }
 
-a:hover {
-  background-color: gray;
+#contact-info a {
+  color: red;
+  border-bottom: 0.05263157895em dotted;
 }
