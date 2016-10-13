@@ -80,6 +80,8 @@ nav {
   width: 100%;
   top: 0;
   left: 0;
+  box-shadow: 0 0.8em 0.4em rgba(0,0,0,0.26); /*The shadow of the navigation bar 14.4px down, 7.2px blur radius*/
+  box-sizing: border-box;
 }
 
 /* ===== MODULAR STYLES ===== */
