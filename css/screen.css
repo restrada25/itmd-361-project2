@@ -151,6 +151,14 @@ a:hover {
 }
 
 #contact-info a {
-  color: red;
+  color: tomato;
   border-bottom: 0.05263157895em dotted;
 }
+
+@media screen and (min-width: 430px) {
+  video {
+    max-height: 100vh;
+    max-width: auto;
+  }
+}
+
