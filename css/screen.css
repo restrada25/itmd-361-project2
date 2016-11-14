@@ -137,6 +137,10 @@ ul li ul li:first-child {
   padding-bottom: 0;
 }
 
+#volunteer-work ul li ul li {
+  list-style: none;
+}
+
 /* Navigation */
 nav {
   font-weight: 200;
