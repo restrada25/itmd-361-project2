@@ -72,10 +72,11 @@ video,
 
 /* ===== LAYOUT STYLES ===== */
 html {
-  border-top: 2.6875em solid #142736; /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
+  border-top: 2.6875em solid #142736; /* ~ 48px @ 18px/em */
 }
 
 nav {
+  font-size: 0.8888888889em; /* 16px @ 18px em */
   position: absolute;
   width: 100%;
   top: 0;
@@ -176,6 +177,10 @@ a:hover {
 }
 
 @media screen and (min-width: 430px) {
+  nav {
+    font-size: 1.125em; /* 18px */
+  }
+
   video {
     max-height: 100vh;
     max-width: auto;
