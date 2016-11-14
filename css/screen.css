@@ -38,13 +38,13 @@ h1 {
 h2 {
   font-size: 1.953em; /* 35.156px @ 18px em */
   line-height: 1.28em; /* 45px @ 35.156px em */
-  padding-bottom: 0.64em; /* 22.5px @ 35.159px em */
+  padding-top: 0.32em; /* 11.25px @ 35.159px em */
 }
 
 h3 {
   font-size: 1.563em; /* 28.125px @ 18px em */
   line-height: 1.6em; /* 45px @ 28.125px em */
-  padding-bottom: 0.8em; /* 22.5px @ 28.125px em */
+  padding-top: 0.4em; /* 11.25px @ 28.125px em */
 }
 
 a {
@@ -104,6 +104,15 @@ li:last-child {
   padding-bottom: 0;
 }
 
+ul li ul:last-child {
+  padding-bottom: 0;
+}
+
+#pets .photo p,
+#pets .video p {
+  padding-bottom: 0;
+}
+
 .nav li {
   display: block;
   float: left;
@@ -114,6 +123,17 @@ li:last-child {
 
 ul li ul li:first-child {
   padding-top: 0.625em; /* 11.25px @ 18px em */
+}
+
+
+
+#hobbies h3 {
+  padding-top: 0;
+}
+
+#hobbies ul,
+#hobbies ul li {
+  padding-bottom: 0;
 }
 
 /* Navigation */
