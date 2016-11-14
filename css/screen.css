@@ -182,7 +182,7 @@ a:hover {
 
 @media screen and (min-width: 430px) {
   nav {
-    font-size: 1.125em; /* 18px */
+    font-size: 1em; /* 18px @ 18px em */
   }
 
   video {
