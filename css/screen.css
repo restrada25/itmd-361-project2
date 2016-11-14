@@ -126,8 +126,6 @@ ul li ul li:first-child {
   padding-top: 0.625em; /* 11.25px @ 18px em */
 }
 
-
-
 #hobbies h3 {
   padding-top: 0;
 }
@@ -156,7 +154,7 @@ nav {
 .nav a {
   display: block;
   text-align: center;
-  line-height: 1;
+  line-height: 1.3em; /* Keep 18px font line height while at 16px font */
   padding: 0.666em 0.333em; /* ~ 12px 6px @ 18px/em */
   background-color: black;
   color: white;
@@ -184,7 +182,9 @@ a:hover {
   nav {
     font-size: 1em; /* 18px @ 18px em */
   }
-
+  .nav a{
+    line-height: 1;
+  }
   video {
     max-height: 100vh;
     max-width: auto;
