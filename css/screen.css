@@ -199,10 +199,10 @@ a:hover {
 
 /*600px  @ 16px em */
 @media screen and (min-width: 37.5em) {
-#page {
-  padding-left: 2.6666666667%; /* 16 px out of 600px */
-  padding-right: 2.6666666667%; /* 16 px out of 600px */
-}
+  #page {
+    padding-left: 2.6666666667%; /* 16 px out of 600px */
+    padding-right: 2.6666666667%; /* 16 px out of 600px */
+  }
   video {
     margin: 0;
     max-height: auto;
@@ -214,7 +214,7 @@ a:hover {
     width: 48.5915492958%;
   }
 
-  footer{
+  footer {
     clear: both;
   }
 }
