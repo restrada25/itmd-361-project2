@@ -143,6 +143,10 @@ ul li ul li:first-child {
   padding-top: 1.25em; /* 22.5px @ 18px em */
 }
 
+#awards ul {
+  padding-top: 0.625em; /* 22.5px @ 18px em */
+}
+
 /* Navigation */
 nav {
   font-weight: 200;
