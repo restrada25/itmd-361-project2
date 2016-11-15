@@ -188,7 +188,7 @@ a:hover {
     font-size: 1em; /* 18px @ 18px em */
   }
   .nav a {
-    line-height: 1;
+    line-height: 1em;
   }
 
   video,
@@ -247,4 +247,32 @@ a:hover {
     padding-left: 18.6046511628%; /* 192px out of 1032px */
     padding-right: 10.46511628%; /* 108px out of 1032px */
   }
+
+  #dunes3,
+  #starved3 {
+    float: right;
+    max-height: auto;
+    width: 48.3333333333%;
+  }
+
+  #dunes4,
+  #starved4 {
+    max-height: auto;
+    width: 48.3333333333%;
+  }
+
+  #dunes3 {
+    padding-top: 0.625em;
+  }
+
+  #starved1 {
+    max-height: auto;
+    width: 48.3333333333%;
+  }
+
+  #starvedrock-text {
+    float: right;
+    width: 48.3333333333%;
+  }
 }
+
