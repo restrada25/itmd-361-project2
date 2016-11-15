@@ -206,7 +206,7 @@ a:hover {
 
   video {
     margin: 0;
-    max-height: auto;
+    height: auto;
     width: 48.5915492958%; /*4 columns */
   }
 
@@ -251,22 +251,22 @@ a:hover {
   #dunes3,
   #starved3 {
     float: right;
-    max-height: auto;
+    height: auto;
     width: 48.3333333333%; /* Added a 24px gutter between both images */
   }
 
   #dunes4,
   #starved4 {
-    max-height: auto;
+    height: auto;
     width: 48.3333333333%; /* Added a 24px gutter between both images */
   }
 
   #dunes3 {
-    padding-top: 0.625em; 
+    padding-top: 0.625em;
   }
 
   #starved1 {
-    max-height: auto;
+    height: auto;
     width: 48.3333333333%; /* Added a 24px gutter between both images */
   }
 
@@ -275,4 +275,3 @@ a:hover {
     width: 48.3333333333%; /* Added a 24px gutter between both images */
   }
 }
-
